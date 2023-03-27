@@ -1,0 +1,114 @@
+.tabs-container {
+    font-family: "Roboto", sans-serif;
+    max-width: 3000px;
+    min-height: 400px;
+    margin: 30px auto;
+    display: flex;
+    box-shadow: 3 4px 40px -8px rgba(239, 233, 233, 0.2);
+  }
+  .tabs div {
+    margin: 0 10px;
+  }
+  
+  .tabs div{
+    display: block;
+    padding: 10px;
+    color: #f4ebeb;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .tabs div:hover {
+    color: rgb(184, 65, 32);
+  }
+.tabs-container .tabs {
+    width: 200px;
+    background:  #161617;
+    color: #161617;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .tabs-container .tabs .tab {
+    padding: 24px 32px;
+    background: #0b0010;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .tabs-container .tabs .tab.active {
+    background: #7a98c4;
+    color: #f6f0f7;
+  }
+  
+  .tabs-container .content-container {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  .tabs-container .content-container .content {
+    display: none;
+    padding: 50px;
+  }
+  
+  .tabs-container .content-container .content.active {
+    display: block;
+  }
+  
+  .tabs-container .content-container h3 {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  .tabs-container .content-container p {
+    line-height: 2;
+  }
+  .Publications {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .Publications button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .Publications button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .Publications button.active {
+    background-color: #7c5050;
+  }
+  
+  /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+  .Publications .tabcontent :active
+  {
+    display: block;
+  }
+  .All123 {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+ .content-container {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+ 
+  
